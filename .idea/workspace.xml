@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="catalog-example:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6941afa-32cf-40c2-8561-9a84fe76dcdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/catalog_example_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/catalog_example_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ejb_ejb_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_2_0_SP1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JourneyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/exception/CategoryNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/exception/InvalidLoginPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/exception/OfferingNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/exception/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/filter/AccessLogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dao/AbstractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dao/CommentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dao/OfferingDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dto/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dto/OfferingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/entity/CommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/entity/OfferingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/model/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/service/AuthorizationBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/service/CategoriesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/service/JourneyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/service/OfferingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/servlet/CatalogServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/servlet/JourneyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/servlet/OfferingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/servlet/RegistrationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/course/catalog_example/util/PathConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/journey.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/catalog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/offering.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/JourneyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/META-INF/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/META-INF/resources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/CategoryNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/InvalidLoginPasswordException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/OfferingNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/UnauthorizedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/UserAlreadyExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/filter/AccessLogFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/AbstractDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/CategoryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/CommentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/OfferingDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dto/CategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dto/CommentDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dto/OfferingDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/entity/CategoryEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/entity/CommentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/entity/OfferingEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/AuthorizationBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/CategoriesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/JourneyBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/OfferingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/CatalogServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/JourneyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/OfferingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/RegistrationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/ru/ncedu/course/catalog_example/util/PathConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/journey.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-core-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jsp-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jstl-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/postgresql-42.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/catalog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/offering.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/JourneyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/META-INF/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/META-INF/resources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/CategoryNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/InvalidLoginPasswordException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/OfferingNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/UnauthorizedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/exception/UserAlreadyExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/filter/AccessLogFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/AbstractDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/CategoryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/CommentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/OfferingDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dto/CategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dto/CommentDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dto/OfferingDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/entity/CategoryEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/entity/CommentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/entity/OfferingEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/model/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/AuthorizationBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/CategoriesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/JourneyBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/OfferingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/CatalogServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/JourneyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/OfferingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/servlet/RegistrationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/classes/ru/ncedu/course/catalog_example/util/PathConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/journey.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/lib/jsp-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/lib/jstl-api-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/catalog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/offering.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/catalog-example-1.0-SNAPSHOT/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/JourneyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/resources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/exception/CategoryNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/exception/InvalidLoginPasswordException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/exception/OfferingNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/exception/UnauthorizedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/exception/UserAlreadyExistsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/filter/AccessLogFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dao/AbstractDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dao/CategoryDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dao/CommentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dao/OfferingDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dto/CategoryDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dto/CommentDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dto/OfferingDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/entity/CategoryEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/entity/CommentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/entity/OfferingEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/model/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/service/AuthorizationBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/service/CategoriesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/service/JourneyBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/service/OfferingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/servlet/CatalogServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/servlet/JourneyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/servlet/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/servlet/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/servlet/OfferingServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/servlet/RegistrationServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/course/catalog_example/util/PathConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/login.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1YWmvjTCqAjTGNQdHyej0jTUdlx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/ROOT.war" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="TomEE Server.TomEE 9.0.30">
+    <configuration name="warfile" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="TomEE 9.0.30" type="TomeeConfiguration" factoryName="Local" editBeforeRun="true" activateToolWindowBeforeRun="false" APPLICATION_SERVER_NAME="TomEE 9.0.30" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="catalog-example:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/catalog_example_war" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/target/ROOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ROOT_war" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="TomEE_9_0_30_catalog-example" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63840" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="TomEE 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/target/ROOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ROOT_war" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_catalog-example" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63840" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50178" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_catalog-example_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61568" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.warfile" />
+      <item itemvalue="TomEE Server.TomEE 9.0.30" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6941afa-32cf-40c2-8561-9a84fe76dcdc" name="Default Changelist" comment="" />
+      <created>1583066956139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583066956139</updated>
+      <workItem from="1583066959829" duration="18128000" />
+      <workItem from="1583132956403" duration="149000" />
+      <workItem from="1583144612433" duration="96000" />
+      <workItem from="1583314923012" duration="25000" />
+      <workItem from="1583482960982" duration="1418000" />
+      <workItem from="1583571503276" duration="192000" />
+      <workItem from="1583597311562" duration="921000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1583087915993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583087915993" />
+    <state x="657" y="152" key="#TomEE_9.0.30" timestamp="1583094553333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="152" key="#TomEE_9.0.30/0.0.1920.1040@0.0.1920.1040" timestamp="1583094553333" />
+    <state x="552" y="177" key="#TomEE_Server" timestamp="1583086951509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#TomEE_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1583086951509" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583484269180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583484269180" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583089667250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583089667250" />
+    <state x="711" y="342" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1583087308400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="342" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583087308400" />
+    <state x="761" y="342" key="FileChooserDialogImpl" timestamp="1583484230391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="342" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583484230391" />
+    <state width="1293" height="345" key="GridCell.Tab.0.bottom" timestamp="1583094912383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912383" />
+    <state width="1293" height="345" key="GridCell.Tab.0.center" timestamp="1583094912383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912383" />
+    <state width="1293" height="345" key="GridCell.Tab.0.left" timestamp="1583094912382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912382" />
+    <state width="1293" height="345" key="GridCell.Tab.0.right" timestamp="1583094912383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912383" />
+    <state width="1293" height="345" key="GridCell.Tab.1.bottom" timestamp="1583094912384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912384" />
+    <state width="1293" height="345" key="GridCell.Tab.1.center" timestamp="1583094912384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912384" />
+    <state width="1293" height="345" key="GridCell.Tab.1.left" timestamp="1583094912383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912383" />
+    <state width="1293" height="345" key="GridCell.Tab.1.right" timestamp="1583094912384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912384" />
+    <state width="1293" height="345" key="GridCell.Tab.2.bottom" timestamp="1583094912385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912385" />
+    <state width="1293" height="345" key="GridCell.Tab.2.center" timestamp="1583094912384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912384" />
+    <state width="1293" height="345" key="GridCell.Tab.2.left" timestamp="1583094912384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912384" />
+    <state width="1293" height="345" key="GridCell.Tab.2.right" timestamp="1583094912385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="345" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583094912385" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1583073602130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583073602130" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1583087318091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583087318091" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583571518613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583571518613" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583074091304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583074091304" />
+  </component>
+</project>
